@@ -1,4 +1,4 @@
-"use client"
+
  export const GetData =  async() =>{
     try {
         const result = await fetch("http://localhost:3000/api/writes", {
